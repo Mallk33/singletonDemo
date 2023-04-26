@@ -10,7 +10,6 @@ public class Singleton {
     private static volatile Singleton INSTANCE;
 
     private Singleton() {
-        System.out.println("============");
     }
 
     public static Singleton getInstance() {
